@@ -1,0 +1,3 @@
+## Domain-Driven Design /Clean Architecture/ Ports and Adapters .Net Core experiments
+
+Hello, friend stay a while and check out my code. I start a little experiment to check out the possibility to implement infrastructure agnostic and application type agnostic domain code. What this agnostic mean? In short words, I want to create an app that can be web app, desktop or service app without touch the domain code. Also, domain code does not know about the data source. So it does not matter that I use SQL or NoSQL database, files and so on. Right now I try to make the base infrastructure layer and make some decisions project structure. Any new features will be described in this README file. 

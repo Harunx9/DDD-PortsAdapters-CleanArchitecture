@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Validation\" />
+    <Folder Include="Validation\ConcreteValidators\" />
+    <Folder Include="Communication\" />
+    <Folder Include="Models\" />
+    <Folder Include="Communication\InputPort\" />
+    <Folder Include="DependencyManagement\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+</Project>
