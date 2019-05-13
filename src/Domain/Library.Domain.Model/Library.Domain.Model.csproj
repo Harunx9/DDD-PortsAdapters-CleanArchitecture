@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CleanArchitecture.Base\CleanArchitecture.Base.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="BookRentContext\Output\Request" />
+      <Folder Include="BookWarehouseContext" />
+    </ItemGroup>
+
+</Project>
